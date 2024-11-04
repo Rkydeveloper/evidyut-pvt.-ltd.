@@ -1,0 +1,218 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+.navbar {
+    background: linear-gradient(90deg, rgb(6, 230, 17) 0%, rgba(129, 178, 154, 1) 100%);
+    padding: 20px 40px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  .navbar ul li {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .navbar ul li a,
+  .dropbtn {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s;
+    background: none;
+    border: none;
+  }
+  
+  .navbar ul li a:hover,
+  .dropbtn:hover {
+    color: #ffdf5b;
+  }
+  
+  /* Dropdown */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #28b823;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .logo img {
+    width: 150px;
+    filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.3));
+  }
+  
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    color: #008000;
+    margin-bottom: 20px;
+}
+
+.contact-options {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-card {
+    background-color: #e6ffe6;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-card h3 {
+    font-size: 1.2em;
+    color: #004d00;
+    margin-bottom: 10px;
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: #008000;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, rgb(13, 240, 51) 0%, rgba(38, 166, 154, 1) 100%);
+    padding: 50px 40px;
+    color: white;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+  }
+  
+  .footer-section p, .footer-section ul {
+    font-size: 16px;
+    color: #eee;
+  }
+  
+  .footer-section ul li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    color: #ffdf5b;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    color: #fff;
+  }
+  
+.diagnostix-section {
+    padding: 50px 80px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.diagnostix-section h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #23f807;
+}
+
+.diagnostix-section p, ul {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #666;
+}
+
+.diagnostix-section h2 {
+    font-size: 24px;
+    color: #11e40a;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+/* Button for Android App */
+.button-container {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.android-btn {
+    display: inline-block;
+    background-color: #11e40a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 25px;
+    font-size: 18px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s;
+}
+
+.android-btn:hover {
+    background-color: #23f807;
+}
